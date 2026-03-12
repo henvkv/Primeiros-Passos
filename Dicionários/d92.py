@@ -17,11 +17,11 @@ if ctps != 0:
     print('='*30)
     print()
     
-    print(f'''O(A) {dados["nome"]} tem {dados["Idade"]} anos.
+    print(f'''{dados["nome"]} tem {dados["Idade"]} anos.
 CTPS: {dados["CTPS"]}. 
 Com o ano de contratação em {dados["Ano de contratação"]}.
 Recebe: R${dados["Salário"]} por mês.
-O(A) {dados["nome"]} se aposenta com {idade_contratado + 35} anos.''')
+{dados["nome"]} se aposenta com {idade_contratado + 35} anos.''')
 
 else:
-    print(f'\nO(A) {dados["nome"]} tem {dados["Idade"]} anos e não tem CTPS.')
+    print(f'\n{dados["nome"]} tem {dados["Idade"]} anos e não tem CTPS.')
