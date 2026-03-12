@@ -1,0 +1,5 @@
+f = input('Digite uma frase:')
+fm = f.upper()
+print('Quantas letras A aparecem? {}\n'.format(fm.count('A')))
+print('Posição do primeiro A: {}\n'.format(fm.find('A')+1))
+print('Posição do ultimo A: {}\n'.format(fm.rfind('A')+1))
