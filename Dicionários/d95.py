@@ -1,4 +1,4 @@
-# DEFININDO AS LISTAS/DICIONARIOS/VARIAVEL
+# DEFININDO AS LISTAS/DICIONARIOS/VARIAVEL 'SOMA'
 dados = dict()
 jogadores = list()
 gols = list()
