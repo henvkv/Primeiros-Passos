@@ -1,12 +1,5 @@
-filmes = {'titulo': 'Star Wars',
-          'ano': '1977',
-          'diretor': 'George Lucas'}
+def soma(n1, n2):
+    resultado = n1 + n2
+    print(resultado)
 
-# for k,v in filmes.items():
-#     print(f'O {k} é {v}')
-
-locadora = list()
-
-locadora.append(filmes)
-
-print(locadora)
+soma(9,1)
